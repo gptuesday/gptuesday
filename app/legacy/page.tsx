@@ -313,7 +313,7 @@ export default function Home(){
               height: "237px !important"
             }}
           >
-            <spline-viewer url="https://prod.spline.design/3q6-RCJjhT7h22XU/scene.splinecode" />
+            {/* <spline-viewer url="https://prod.spline.design/3q6-RCJjhT7h22XU/scene.splinecode" /> */}
           </div>
         </div>
       </div>
@@ -1306,7 +1306,7 @@ export default function Home(){
                 placeholder="Your Name"
                 type="text"
                 id="name"
-                required=""
+                required
               />
               <img
                 width={16}
@@ -1328,7 +1328,7 @@ export default function Home(){
                 placeholder="Your Email"
                 type="email"
                 id="Email"
-                required=""
+                required
               />
               <img
                 width={16}
@@ -1472,7 +1472,7 @@ export default function Home(){
             placeholder="Enter Your Email"
             type="email"
             id="newsletter-email"
-            required=""
+            required
           />
           <input
             type="submit"
