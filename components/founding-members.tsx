@@ -327,7 +327,7 @@ export default function FoundingMembers(){
             <div className="member-title">
               <div className="member-name bold">Itai Leibowitz</div>
               <div className="member-name">
-                Full Stack Developer, Founder of Gabrielle.day
+                Founder, Biscayne AI<br/>Formerly Google, Meta, and McKinzie
               </div>
             </div>
             <div className="member-links">
@@ -513,8 +513,8 @@ export default function FoundingMembers(){
             <div className="member-title">
               <div className="member-name bold">Grant Kurz</div>
               <div className="member-name">
-                GenAI Integration Consultant, Founder of Consultabit, Developer
-                of FluentFlash
+                Co-Founder, GPTuesday<br/>
+                Founder, CryptoScenarios (Acquired by CoinLedger.io)
               </div>
             </div>
             <div className="member-links">

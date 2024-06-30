@@ -712,7 +712,7 @@ export default function Home(){
             <div className="member-title">
               <div className="member-name bold">Itai Leibowitz</div>
               <div className="member-name">
-                Full Stack Developer, Founder of Gabrielle.day
+                Biscayne AI, Founder<br/>Formerly Google, Meta, and McKinzie
               </div>
             </div>
             <div className="member-links">

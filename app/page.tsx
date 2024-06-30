@@ -1,4 +1,5 @@
 import AboutTheEvent from "@/components/about-the-event";
+import CalendarSection from "@/components/calendar-speakers/calendar-section";
 import DesktopNavigation from "@/components/desktop-navigation";
 import EventGallery from "@/components/event-gallery";
 import EventSponsors from "@/components/event-sponsors";
@@ -17,10 +18,11 @@ export default function Home(){
 
   return(
     <main>
-      <DesktopNavigation/>
+      <DesktopNavigation isAbsolute={true}/>
       <HomeHeroSection/>
       <AboutTheEvent/>
       <EventTicket/>
+      {/* <CalendarSection/> */}
       <FoundingMembers/>
       <EventGallery/>
       <EventSponsors/>

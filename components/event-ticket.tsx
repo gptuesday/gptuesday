@@ -9,9 +9,9 @@ export default function EventTicket(){
             <br />
           </div>
           <div className="ticket-price-div">
-            <h3 className="h3-white">$10.00</h3>
+            <h3 className="h3-white">Free</h3>
             <div className="main-text white">
-              per Ticket
+              Ticket
               <br />
             </div>
           </div>
@@ -32,10 +32,6 @@ export default function EventTicket(){
               Meet &amp; Greet with Speakers
               <br />
             </div>
-            <div className="main-text cards">
-              Event Souvenir
-              <br />
-            </div>
           </div>
           <div className="eventbrite-button w-embed w-script">
             {/*  Noscript content for added SEO  */}
@@ -46,7 +42,7 @@ export default function EventTicket(){
               Eventbrite&lt;/a&gt;
             </noscript> */}
             {/*  You can customize this button any way you like  */}
-            <a href="https://www.eventbrite.com/e/gptuesday-weekly-ai-meetup-tickets-656319979727" target="_blank" rel="noopener noreferrer">
+            <a href="https://lu.ma/GPTuesday" target="_blank" rel="noopener noreferrer">
               <button
               id="eventbrite-widget-modal-trigger-656319979727"
               style={{
@@ -61,7 +57,7 @@ export default function EventTicket(){
                 boxShadow: "0 0 16px 8px rgba(72, 127, 255, .23)"
               }}
             >
-              Buy Tickets
+              Get Tickets
             </button>
             </a>
           </div>
