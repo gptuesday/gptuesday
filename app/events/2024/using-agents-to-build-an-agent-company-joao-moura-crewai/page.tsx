@@ -2,6 +2,7 @@ import DesktopNavigation from '@/components/desktop-navigation';
 import Head from 'next/head';
 import Image from 'next/image';
 
+
 export default function SpeakerEvent() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-900 to-indigo-900 text-white">
@@ -10,17 +11,9 @@ export default function SpeakerEvent() {
         <meta name="description" content="Join João Moura for an inspiring talk on using AI agents to grow businesses and innovate." />
       </Head>
 
-
       <DesktopNavigation/>
 
-      {/* <header className="container mx-auto px-4 py-6 block justify-between items-center">
-        <Image src="/logo.png" alt="GPTUesday Logo" width={120} height={40} />
-        <button className="bg-black text-white px-4 py-2 rounded-full">
-          Free Tickets
-        </button>
-      </header> */}
-
-      <main className="container mx-auto px-4 py-12">
+      <main className="container mx-auto px-4 py-8 md:py-12">
 
         <section className="text-center mb-0">
           <div className='mb-4'>
@@ -82,19 +75,7 @@ export default function SpeakerEvent() {
             <p className="font-semibold">João Moura, CEO</p>
           </div>
         </section>
-        {/* <section className="text-center mb-16">
-          <h3 className="text-3xl font-bold mb-4">Social Media</h3>
-          <p className="mb-4">
-            Watch our Youtube
-          </p>
-        </section> */}
       </main>
-
-      {/* <footer className="bg-purple-900 text-white py-8 absolute bottom-0 w-full">
-        <div className="container mx-auto px-4 text-center">
-          <p>GPTuesday</p>
-        </div>
-      </footer> */}
     </div>
   );
 }

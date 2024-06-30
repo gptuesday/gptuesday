@@ -702,7 +702,7 @@ export default function Home(){
             className="member-div"
           >
             <img
-              src="images/7.webp"
+              src="/img/itai-leibowitz.png"
               loading="lazy"
               sizes="100vw"
               srcSet="images/7-p-500.png 500w, images/7-p-800.png 800w, images/7.webp 1080w"
@@ -712,7 +712,7 @@ export default function Home(){
             <div className="member-title">
               <div className="member-name bold">Itai Leibowitz</div>
               <div className="member-name">
-                Biscayne AI, Founder<br/>Formerly Google, Meta, and McKinzie
+                Biscayne AI, Founder<br/>Formerly Google, Meta, and McKinsey
               </div>
             </div>
             <div className="member-links">

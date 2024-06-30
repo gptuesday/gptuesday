@@ -317,17 +317,17 @@ export default function FoundingMembers(){
             className="member-div"
           >
             <img
-              src="images/7.webp"
+              src="/img/speakers/itai-leibowitz.png"
               loading="lazy"
               sizes="100vw"
-              srcSet="images/7-p-500.png 500w, images/7-p-800.png 800w, images/7.webp 1080w"
+              srcSet="/img/speakers/itai-leibowitz.png 500w, /img/speakers/itai-leibowitz.png 800w, /img/speakers/itai-leibowitz.png 1080w"
               alt="A person standing upright with short hair, and appearing to be engaged in a neutral posture"
               className="member-photo"
             />
             <div className="member-title">
               <div className="member-name bold">Itai Leibowitz</div>
               <div className="member-name">
-                Founder, Biscayne AI<br/>Formerly Google, Meta, and McKinzie
+                Founder, Biscayne AI<br/>Formerly Google, Meta, and McKinsey
               </div>
             </div>
             <div className="member-links">
