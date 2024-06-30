@@ -28,7 +28,7 @@ export default function DesktopNavigation({isAbsolute}: {isAbsolute?: boolean}) 
     }`}>
       <div className="container mx-auto px-4 py-4 flex justify-between items-center max-w-[1100px]">
       <a href="/" ><div className="logo">GPTUESDAY</div></a>
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-6 hidden md:block">
           <a href="/#join" className="text-white hover:text-purple-300 transition-colors">Join</a>
           <a href="/#pricing" className="text-white hover:text-purple-300 transition-colors">Pricing</a>
           <a href="/#members" className="text-white hover:text-purple-300 transition-colors">Founding Members</a>
