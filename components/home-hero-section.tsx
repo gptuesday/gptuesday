@@ -31,7 +31,7 @@ export default function HomeHeroSection(){
             <div className="clock-text">Seconds</div>
             <div className="countdown-item hidden">00</div>
           </div> */}
-          <a href="#" className="gradient-button w-button">
+          <a href="https://lu.ma/GPTuesday" className="gradient-button w-button" target="_blank">
             Register Now
           </a>
         </div>
