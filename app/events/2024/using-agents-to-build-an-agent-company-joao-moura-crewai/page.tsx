@@ -34,9 +34,11 @@ export default function SpeakerEvent() {
         </section>
 
         <section className="text-center mb-16">
-          <button className="bg-purple-700 text-white px-8 py-3 rounded-full text-lg font-semibold gradient-button w-button">
-            Register Now
-          </button>
+          <a href="https://lu.ma/GPTuesday" target="_blank">
+            <button className="bg-purple-700 text-white px-8 py-3 rounded-full text-lg font-semibold gradient-button w-button">
+              Register Now
+            </button>
+          </a>
         </section>
 
 
