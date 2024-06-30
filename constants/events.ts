@@ -29,7 +29,7 @@ export const events: EventType[] = [
     location: "The Hub at Office Logic",
     image: "/img/speakers/jen-sheerin.jpeg",
     slug: "/events/2024/jen-sheerin-azure-open-ai-integrator-microsoft",
-    luma: "/",
+    luma: "https://lu.ma/GPTuesday",
     speakerTagline: "Azure Open AI integrator, Microsoft", 
     eventDescription: "TBD"
   },
