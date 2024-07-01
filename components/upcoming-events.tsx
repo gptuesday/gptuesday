@@ -7,8 +7,8 @@ export default function UpcomingEvents() {
   return(
     <>
         <div className="flex flex-wrap justify-center gap-14">
-          {events.map((event) => (
-            <EventCard key={event.id} event={event} />
+          {events.map((event,index) => (
+            <EventCard key={index} event={event} />
           ))}
         </div>
     </>

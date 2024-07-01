@@ -45,7 +45,6 @@ export default function EventDetail({event}: {event: EventType}){
           </a>
         </section>
 
-
         <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="bg-white bg-opacity-10 p-4 rounded-lg">
             <h3 className="font-semibold mb-2">Date</h3>
