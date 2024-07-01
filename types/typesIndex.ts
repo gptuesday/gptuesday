@@ -1,5 +1,5 @@
 export type EventType = {
-  id: number;
+  // id: number;
   speaker: string;
   speakerTitle: string;
   title: string;
