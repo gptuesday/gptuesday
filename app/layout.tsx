@@ -21,6 +21,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+          <Script src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_MEASUREMENT_ID}`} />
+          <Script id="google-analytics">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+    
+              gtag('config', '${process.env.GOOGLE_MEASUREMENT_ID}');
+            `}
+          </Script>
+      </head>
       <body className={montserrat.className}>{children}
       <Script id="clarity-script" strategy="afterInteractive">
           {`
