@@ -1,8 +1,8 @@
 import { events } from '@/constants/events';
-import { EventType } from '@/types/typesIndex';
-import EventCard from './event-card';
+import EventCard from '@/components/event-card';
 
-export default function UpcomingEvents() {
+
+export default function AllEvents() {
 
   return(
     <>

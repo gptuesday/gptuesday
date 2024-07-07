@@ -72,7 +72,6 @@ export default function SpeakerEvent() {
               "Founder of crewAI / prev @clearbit (acc by @hubspot) In tech for 20 years,
               I love building things, programming and OpenSource."
             </p>
-            <p className="font-semibold">João Moura, CEO</p>
           </div>
         </section>
       </main>
