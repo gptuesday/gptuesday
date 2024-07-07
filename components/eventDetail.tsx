@@ -4,6 +4,7 @@ import Image from 'next/image';
 import DesktopNavigation from "./desktop-navigation";
 import { cn } from "@/utils";
 
+
 export default function EventDetail({event}: {event: EventType}){
 
   // Function to preprocess the event description
@@ -12,6 +13,11 @@ export default function EventDetail({event}: {event: EventType}){
 
     return description.split('\n').map(line => line.trim()).join('\n');
   };
+
+  if (!event) {
+    return <div>No event found</div>;
+  }
+
 
   return(
 
