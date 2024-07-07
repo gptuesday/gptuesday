@@ -1154,19 +1154,6 @@ export default function Home(){
           />
         </a>
         <a
-          id="w-node-_338d417e-9029-8729-4853-87c26303f663-c7901c15"
-          href="https://drinkheyhei.com/"
-          target="_blank"
-          className="sponsor-link w-inline-block"
-        >
-          <img
-            src="images/jafton.svg"
-            loading="lazy"
-            alt="Jafton Logo"
-            className="sponsor-logo"
-          />
-        </a>
-        <a
           id="w-node-_5093c16b-6553-bba4-7901-1b401fca6b5f-c7901c15"
           href="https://drinkheyhei.com/"
           target="_blank"
@@ -1537,17 +1524,6 @@ export default function Home(){
               />
             </a>
           </div>
-        </div>
-        <div
-          id="w-node-_67595abf-ee56-efcc-4cfc-ed67722aafd0-c7901c15"
-          className="jafton-div"
-        >
-          <div className="main-text white">Brought to you by</div>
-          <a
-            href="https://www.jafton.com/"
-            target="_blank"
-            className="jafton-link w-inline-block"
-          />
         </div>
       </div>
     </div>

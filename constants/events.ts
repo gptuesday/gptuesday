@@ -2,10 +2,48 @@ import { EventType } from "@/types/typesIndex";
 
 export const events: EventType[] = [
   {
+    speaker: "Alexander Comerford",
+    speakerTitle: "Speaker",
+    title: "Live AI Integration Demo",
+    date: "June 13th",
+    formattedDate: "2023-06-13", 
+    time: "TBD",
+    location: "Online",
+    image: "/img/speakers/alexander-comerford.png", // Update the image path as needed
+    slug: "/events/2023/live-ai-integration-demo-alexander-comerford",
+    luma: "https://lu.ma/xyz123", // Update the luma link as needed
+    speakerTagline: "Alexander will be giving us a live demo of how he integrates AI into his development process.",
+    eventDescription: `Meet our next speaker, Alexander Comerford!
+    Alexander will be giving us a live demo of how he integrates AI into his development process.
+    Don't miss out on this insightful session. Stay tuned!`
+  },
+  {
+    speaker: "Tad Duval",
+    speakerTitle: "Software Engineer and Founder of Command Labs and Kalygo",
+    title: "Vector Search",
+    date: "June 19th",
+    formattedDate: "2023-06-19",
+    time: "TBD",
+    location: "Online",
+    image: "/img/speakers/tad-duval.png", // Update the image path as needed
+    slug: "/events/2023/vector-search-tad-duval",
+    luma: "https://lu.ma/xyz456", // Update the luma link as needed
+    speakerTagline: "Seasoned software engineer and the founder of Command Labs and Kalygo",
+    eventDescription: `We're excited to announce our next speaker for GPTuesday - Weekly AI Meetup, Tad Duval! Tad is a seasoned software engineer and the founder of Command Labs and Kalygo. He will be enlightening us on the topic of Vector Search.
+
+    Vector Search is a powerful technique used in the field of AI, particularly in the realm of machine learning. It involves converting data into high-dimensional vectors and using these vectors to search for similar data points. This method is highly efficient and accurate, making it a popular choice for tasks such as image recognition, recommendation systems, and natural language processing.
+
+    Tad's talk will delve into the intricacies of Vector Search, its applications in AI, and how it's revolutionizing the way we handle and process data.
+
+    Don't miss out on this insightful session!`
+  },
+
+  {
     speaker: "Open Mic Night!",
     speakerTitle: "Community AI Projects & Demos",
     title: "Community AI Projects & Demos",
-    date: "July 9th",
+    date: "July 2nd",
+    formattedDate: "2024-07-02", 
     time: "6:30pm - 9:30pm",
     location: "The Hub at Office Logic",
     image: "/img/open-mic-night.png",
@@ -35,6 +73,7 @@ export const events: EventType[] = [
     speakerTitle: "Founder, crewAI",
     title: "Using agents to build an agent company",
     date: "July 9th",
+    formattedDate: "2024-07-09", 
     time: "6:30pm - 9:30pm",
     location: "The Hub at Office Logic",
     image: "/img/speakers/joe-moura.jpg",
@@ -53,6 +92,7 @@ export const events: EventType[] = [
     speakerTitle: "Azure Open AI integrator, Microsoft",
     title: "TBD",
     date: "July 16th",
+    formattedDate: "2024-07-16", 
     time: "6:30pm - 9:30pm",
     location: "The Hub at Office Logic",
     image: "/img/speakers/jen-sheerin.jpeg",

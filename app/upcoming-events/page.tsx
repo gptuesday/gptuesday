@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import DesktopNavigation from '@/components/desktop-navigation';
-import AllEvents from '@/components/events/all-events';
+import UpcomingEvents from '@/components/events/upcoming-events';
 
 export default function EventsPage() {
   return (
@@ -15,9 +15,9 @@ export default function EventsPage() {
       <DesktopNavigation />
 
       <main className=" mx-auto px-4 py-5 md:py-10 lg:py-20 max-w-[1800px]">
-        <h1 className="text-5xl font-bold mb-12 text-center">Events</h1>
+        <h1 className="text-5xl font-bold mb-12 text-center">Upcoming Events</h1>
 
-        <AllEvents />
+        <UpcomingEvents />
       </main>
     </div>
   );

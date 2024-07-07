@@ -54,12 +54,12 @@ export default function EventSponsors(){
           />
         </a>
       </div>
-      <div className="main-text sponsors">
+      {/* <div className="main-text sponsors">
         We're looking for more sponsors. If you're interested,{" "}
         <a href="sponsors.html" className="purple-text">
           click here
         </a>
-      </div>
+      </div> */}
     </div>
   </section>  
   )

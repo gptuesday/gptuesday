@@ -97,17 +97,6 @@ export default function SubscribeNow(){
             </a>
           </div>
         </div>
-        <div
-          id="w-node-_67595abf-ee56-efcc-4cfc-ed67722aafd0-c7901c15"
-          className="jafton-div"
-        >
-          <div className="main-text white">Brought to you by</div>
-          <a
-            href="https://www.jafton.com/"
-            target="_blank"
-            className="jafton-link w-inline-block"
-          />
-        </div>
       </div>
     </div>
   </section>
