@@ -96,8 +96,8 @@ export const events: EventType[] = [
     time: "6:30pm - 9:30pm",
     location: "The Hub at Office Logic",
     image: "/img/speakers/jen-sheerin-gptuesday.png",
-    slug: "/events/2024/jen-sheerin-azure-open-ai-integrator-microsoft",
-    luma: "https://lu.ma/GPTuesday",
+    slug: "/events/2024/unleashing-the-power-of-azure-ai-studio-transforming-ai-development-and-deployment-jen-sheerin-microsoft",
+    luma: "https://lu.ma/yt6th534",
     speakerTagline: "Sr. Cloud Solution Architect, Microsoft", 
     eventDescription: `
     Join us for an exciting and informative session on Azure AI Studio, the ultimate platform for building, deploying, and managing AI solutions. This session is best for AI engineers and developers eager to explore the cutting-edge capabilities of Azure AI Studio.
