@@ -10,7 +10,7 @@ export default function EventSponsors(){
         Event Sponsors
         <br />
       </h3>
-      <div className="sponsors-div">
+      <div className="flex justify-center gap-x-10">
         <a
           id="w-node-c7f8dfdf-3978-7ab4-36ac-49dc6277ddb2-c7901c15"
           href="https://drinkheyhei.com/"
@@ -23,19 +23,6 @@ export default function EventSponsors(){
             id="w-node-da36e4fa-0609-8aa6-0df9-8bf51688b49c-c7901c15"
             alt="Hey Hei Logo"
             className="sponsor-logo hey-hei"
-          />
-        </a>
-        <a
-          id="w-node-_338d417e-9029-8729-4853-87c26303f663-c7901c15"
-          href="https://drinkheyhei.com/"
-          target="_blank"
-          className="sponsor-link w-inline-block"
-        >
-          <img
-            src="images/jafton.svg"
-            loading="lazy"
-            alt="Jafton Logo"
-            className="sponsor-logo"
           />
         </a>
         <a
