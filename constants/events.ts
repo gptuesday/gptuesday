@@ -89,16 +89,33 @@ export const events: EventType[] = [
   {
     // id: 2,
     speaker: "Jen Sheerin",
-    speakerTitle: "Azure Open AI integrator, Microsoft",
-    title: "TBD",
+    speakerTitle: "Sr. Cloud Solution Architect, Microsoft",
+    title: "Unleashing the Power of Azure AI Studio: Transforming AI Development and Deployment",
     date: "July 16th",
     formattedDate: "2024-07-16", 
     time: "6:30pm - 9:30pm",
     location: "The Hub at Office Logic",
-    image: "/img/speakers/jen-sheerin.jpeg",
+    image: "/img/speakers/jen-sheerin-gptuesday.png",
     slug: "/events/2024/jen-sheerin-azure-open-ai-integrator-microsoft",
     luma: "https://lu.ma/GPTuesday",
-    speakerTagline: "Azure Open AI integrator, Microsoft", 
-    eventDescription: "TBD"
+    speakerTagline: "Sr. Cloud Solution Architect, Microsoft", 
+    eventDescription: `
+    Join us for an exciting and informative session on Azure AI Studio, the ultimate platform for building, deploying, and managing AI solutions. This session is best for AI engineers and developers eager to explore the cutting-edge capabilities of Azure AI Studio.
+
+    What You’ll Learn:
+    - How to seamlessly integrate Azure AI Studio into your AI projects
+    - Tips and tricks to maximize productivity and efficiency
+    
+    Why Attend:
+    - Discover innovative tools and features that can elevate your AI development
+    - Network with other enthusiasts
+    - Participate in interactive Q&A sessions
+    - Don’t miss this opportunity to stay ahead of the curve and revolutionize your AI projects with Azure AI Studio. Register now!
+    
+    Bio:
+    Jen Sheerin is a seasoned Azure Cloud Engineer specializing in cloud infrastructure for Azure Open AI solutions. With a passion for building and deploying AI solutions responsibly, securely, and following best practices, Jen is recognized as an expert in her field with diverse technology skills and a proven track record of creating innovative solutions for users.
+    Jen’s accolades include being a former Microsoft MVP. As a dedicated Women in Tech mentor, she is committed to learning, sharing, and inspiring other women to achieve their career goals
+    
+    `
   },
 ];
