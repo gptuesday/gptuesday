@@ -1,34 +1,60 @@
-import { events } from '@/constants/events';
 import { EventType } from '@/types/typesIndex';
-import Image from 'next/image';
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from './ui/button';
 
 export default function EventCard({ event }: { event: EventType }) {
+
+  let speakerSection = event.speaker.map((speaker, index) => (
+    <div key={index}>
+      <SpeakerName>{speaker}</SpeakerName>
+      <SpeakerTitle>{event.speakerTitle[index]}</SpeakerTitle>
+    </div>
+  ));
+  
   return (
-    <div className="relative bg-white bg-opacity-10 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105 w-11/12 md:w-[500px] border-rounded-xl pb-8 border-purple-600 border-4 hover:border-green-300">
-        <a href={`${event.slug}`}>
+    <a href={`/events/2024/${event.slug}`} target="_blank">
+      <Card className='relative bg-white bg-opacity-10 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105 w-11/12 md:w-[400px] lg:w-full lg:w-[500px] border-rounded-xl border-purple-600 border-4 hover:border-green-300 m-0 p-0 m-auto'>
+          <CardHeader className='p-0'>
           <img
             src={event.image}
-            alt={event.speaker}
+            alt={event.title}
             className=" object-cover"
-          />
-          <div className="p-6">
-            <p className="text-purple-200 text-3xl font-semibold">{event.speaker}</p>
-            <p className="text-purple-200 mb-4 text-2xl italic">{event.speakerTitle}</p>
-            <h2 className="text-2xl font-bold mb-4 text-transparent bg-clip-text text-blue-400">{event.title}</h2>
+          />      
+        </CardHeader>
+        <CardContent className='flex flex-col justify-between md:min-h-[300px] p-3 pb-0'>
+          <div>
+            {speakerSection}
+          </div>
+          <div className="mt-auto text-white">
             <p className="mb-2">
-              <strong>Date:</strong> {event.date}
+              <strong>Date: </strong>{event.date}
             </p>
             <p className="mb-2">
-              <strong>Time:</strong> {event.time}
+              <strong>Time: </strong>{event.time}
             </p>
             <p className="mb-4">
-              <strong>Location:</strong> {event.location}
+              <strong>Location: </strong>{event.location}
             </p>
-            <span className="bg-purple-700 text-white px-4 py-2 rounded-full inline-block hover:bg-purple-600 transition-colors absolute bottom-2.5">
-              Learn More
-            </span>
           </div>
-        </a>
-    </div>
+        </CardContent>
+        <CardFooter className='abosolute bottom-0 w-full p-3 mb-0'>
+          <Button className="bg-green-600 text-white w-full left-0 bottom-0 m-0 p-0">
+              Learn More
+          </Button>
+        </CardFooter>
+      </Card>
+    </a>
   );
+}
+
+function SpeakerName({children}: {children: string}){
+  return (
+    <p className="text-purple-200 text-xl font-semibold">{children}</p>
+  )
+}
+
+function SpeakerTitle({children}: {children: string}){
+  return(
+    <p className="text-purple-200 mb-4 text-lg italic break-words whitespace-pre-wrap">{children}</p>
+  )
 }
