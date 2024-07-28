@@ -99,11 +99,11 @@ function SpeakerTagLines({event}: {event: EventType}){
 
 function SpeakerTagLine({event, index}: {event: EventType, index:number}){
   return(
-    <div className="flex flex-col md:gap-y-5 items-center bg-white bg-opacity-10 rounded-lg">
-      <div className="md:pr-6 pt-3">
+    <div className="md:gap-y-5 items-center bg-white bg-opacity-10 rounded-lg flex text-left">
+      <div className="md:pr-6">
         <Image src={event.image} alt={event.speaker[index]} width={200} height={200} className="rounded-lg mb-4 md:mb-0 md:mr-8 border-2 border-purple-400" />
       </div>
-      <div className="text-center">
+      <div className="">
         <h3 className="text-xl font-bold mb-4">{event.speaker[index]}</h3>
         <p className="text-gray-300 mb-4">
         {event.speakerTagline[index]}
