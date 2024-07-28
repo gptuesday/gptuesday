@@ -6,7 +6,8 @@ export default function AllEvents() {
 
   return(
     <>
-      <div className="flex flex-wrap justify-center gap-14 m-auto">
+      {/* <div className="flex flex-wrap justify-center gap-14 m-auto w-full"> */}
+      <div className="flex flex-wrap justify-center gap-14 m-auto w-full">
         {events.map((event,index) => (
           <EventCard key={index} event={event} />
         ))}

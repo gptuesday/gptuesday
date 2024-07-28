@@ -14,7 +14,7 @@ export default function EventsPage() {
 
       <DesktopNavigation />
 
-      <main className=" mx-auto px-4 py-5 md:py-10 lg:py-20 max-w-[1800px]">
+      <main className=" mx-auto md:px-4 py-5 md:py-10 lg:py-20 max-w-[1800px]">
         <h1 className="text-5xl font-bold mb-12 text-center">Events</h1>
 
         <AllEvents />
