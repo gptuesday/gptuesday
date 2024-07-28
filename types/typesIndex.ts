@@ -1,7 +1,8 @@
 export type EventType = {
-  speaker: string;
-  speakerTitle: string;
   title: string;
+  speaker: string[];
+  speakerTitle: string[];
+  speakerTagline: string[];
   date: string;
   formattedDate: string;
   time: string;
@@ -9,6 +10,5 @@ export type EventType = {
   image: string;
   luma: string;
   slug: string;
-  speakerTagline: string;
   eventDescription: string;
 }

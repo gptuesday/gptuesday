@@ -9,7 +9,7 @@ export default function EventsPage() {
     <div className="min-h-screen bg-gradient-to-b from-purple-900 to-indigo-900 text-white">
       <Head>
         <title>GPTuesday - Upcoming Events</title>
-        <meta name="description" content="Join us for exciting AI talks and workshops at GPTuesday events." />
+        <meta name="description" content="Join us for exciting AI talks and workshops at GPTuesday events."/>
       </Head>
 
       <DesktopNavigation />
