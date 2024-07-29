@@ -241,6 +241,31 @@ Join the GPTuesday community for an evening of innovation, inspiration, and game
   📝 In this live tutorial, Itai will demonstrate how he effortlessly writes detailed emails and posts by simply speaking to his AI assistant. You'll learn the step-by-step process to set up your own AI writing companion and start saving valuable time 🤖
   
   📅 Mark your calendar for Tuesday at 7:00 PM EST at The Hub at Office Logic! Don't miss this opportunity to improve your writing process and take your productivity to new heights 🚀`
+  },
+  {
+    title: "Unleashing Google Vertex AI: Image Classification and Beyond!",
+    speaker: ["Andres Espinosa"],
+    speakerTitle: ["CTO, bundleIQ"],
+    speakerTagline: ["bundleIQ, CTO"],
+    date: "May 28th",
+    formattedDate: "2024-05-28",
+    time: "TBD", // Time was not specified in the details
+    location: "The Hub at Office Logic",
+    image: "/img/speakers/unleashing-google-vertex-ai-andres-espinosa.png",
+    slug: "unleashing-google-vertex-ai-image-classification-and-beyond-andres-espinosa",
+    luma: "",
+    eventDescription: `🎙 Join us for an exciting GPTuesday event with Andres Espinosa, CTO at bundleIQ, as we dive into the world of Google Vertex AI and explore its incredible potential for image classification and more! 📸
+  
+  👨‍💻 Discover the power of Google Vertex AI and how it can revolutionize your machine learning projects. From organizing and training data to deploying endpoints, Andres will cover all the essential aspects of this cutting-edge platform. 🎯
+  
+  🩺 Witness a live demo of Google Vertex AI in action with a captivating cancer screening application for mole detection. See how this technology can transform healthcare and save lives. 🩹
+  
+  🎟 Don't miss this opportunity to learn from Andres Espinosa and connect with the vibrant GPTuesday community. Join us as we unlock the full potential of Google Vertex AI together! 🗓
+  
+  ⏰ Secure your spot by registering at the link below!
+  
+  Date: May 28th, 2024
+  Location: The Hub at Office Logic`
   }
   // {
   //   speaker: "Tad Duval",
