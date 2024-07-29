@@ -87,9 +87,7 @@ export default function EventDetail({event}: {event: EventType}){
 function SpeakerTagLines({event}: {event: EventType}){
 
   return(
-
     <section className="mb-16 flex flex-col gap-y-8">
-
     {event.speaker.map((speaker, index) => (
       <SpeakerTagLine event={event} index={index} key={index}/>
       ))}
@@ -116,7 +114,7 @@ function SpeakerTagLine({event, index}: {event: EventType, index:number}){
 function SpeakerCard({event, index}: {event: EventType, index: number}){
   
  return(
-  <Card className="w-auto bg-white bg-opacity-10 text-center p-0 pb-0 rounded-lg shadow-md w-11/12 md:w-[400px] py-2">
+  <Card className="w-auto bg-white bg-opacity-10 text-center p-0 pb-0 rounded-lg shadow-md w-11/12 md:w-[400px] py-2 text-white">
     <CardContent className="pb-0">
       <h3 className="text-xl font-semibold text-purple-300 py-0">{event.speaker[index]}</h3>
       <p className="text-sm text-gray-300">{event.speakerTitle[index]}</p>

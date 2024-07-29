@@ -136,34 +136,112 @@ Join the GPTuesday community for an evening of innovation, inspiration, and game
     
   I'll share our adventure with crewAI, showing how we used AI to solve problems, save time, and come up with new ideas. It's a journey of discovery and making things better with AI, showing everyone that they can use AI in their work and projects.`
   },
-  // {
-  //   speaker: "Open Mic Night!",
-  //   speakerTitle: "Community AI Projects & Demos",
-  //   title: "Community AI Projects & Demos",
-  //   date: "July 2nd",
-  //   formattedDate: "2024-07-02", 
-  //   time: "6:30pm - 9:30pm",
-  //   location: "The Hub at Office Logic",
-  //   image: "/img/open-mic-night.png",
-  //   slug: "open-mic-night-jordan-leigh-sam-hastings",
-  //   luma: "https://lu.ma/71ouppzp",
-  //   speakerTagline: "Founder of crewAI / prev @clearbit (acc by @hubspot) In tech for 20 years, I love building things, programming and OpenSource.",
-  //   eventDescription: `​🎙 Get ready for an exciting GPTuesday Open Mic Night! Join us as we showcase innovative AI projects from our community members. 🚀
+  {
+    speaker: ["Open Mic Night!"],
+    speakerTitle:[ "Community AI Projects & Demos"],
+    speakerTagline: ["Community AI Projects & Demos"],
+    title: "Community AI Projects & Demos",
+    date: "July 2nd",
+    formattedDate: "2024-07-02", 
+    time: "6:30pm - 9:30pm",
+    location: "The Hub at Office Logic",
+    image: "/img/open-mic-night.png",
+    slug: "open-mic-night-jordan-leigh-sam-hastings",
+    luma: "https://lu.ma/71ouppzp",
+    eventDescription: `​🎙 Get ready for an exciting GPTuesday Open Mic Night! Join us as we showcase innovative AI projects from our community members. 🚀
 
-  //   ​Our featured presenters include:
+    ​Our featured presenters include:
     
-  //   ​🌐 Jordan Leigh (3x Founder & Founding Engineer at Phantom)
-  //   - Project: Blendin - An LLM-native localization management platform
-  //   - Discover how Blendin seamlessly integrates with websites to provide instant, AI-powered language localization using cutting-edge LLMs.
+    ​🌐 Jordan Leigh (3x Founder & Founding Engineer at Phantom)
+    - Project: Blendin - An LLM-native localization management platform
+    - Discover how Blendin seamlessly integrates with websites to provide instant, AI-powered language localization using cutting-edge LLMs.
     
-  //   ​💪 Sam Hastings (iOS Engineer)
-  //   - Project: Squatify - AI-powered rep counting app
-  //   - Watch a live demo of this innovative iOS app that uses computer vision to track your body and count your reps during workouts.
+    ​💪 Sam Hastings (iOS Engineer)
+    - Project: Squatify - AI-powered rep counting app
+    - Watch a live demo of this innovative iOS app that uses computer vision to track your body and count your reps during workouts.
     
-  //   ​👨‍💻👩‍💻 These impactful demonstrations will showcase the practical applications of AI in diverse fields, from web localization to fitness technology. Plus a few more surprise guests 😉
+    ​👨‍💻👩‍💻 These impactful demonstrations will showcase the practical applications of AI in diverse fields, from web localization to fitness technology. Plus a few more surprise guests 😉
     
-  //   ​🤝 Expand your AI knowledge, get inspired, and network with fellow AI innovators.`
-  // },
+    ​🤝 Expand your AI knowledge, get inspired, and network with fellow AI innovators.`
+  },
+  {
+    title: "The AI Landscape: From Core Concepts to Prompt Engineering",
+    speaker: ["Natalia Vavoula"],
+    speakerTitle: ["Data Analyst, CMA CGM"],
+    speakerTagline: ["Data Analyst, CMA CGM, Formerly Advisory Consultant, PWC"],
+    date: "June 25th",
+    formattedDate: "2024-06-25",
+    time: "6:30pm - 9:00pm",
+    location: "THE HUB @ Office Logic",
+    image: "/img/speakers/the-ai-landscape-from-core-concepts-to-prompt-engineering-natalia-vavoula.png",
+    slug: "the-ai-landscape-from-core-concepts-to-prompt-engineering-natalia-vavoula",
+    luma: "",  // Note: Actual Luma link not provided, using a placeholder
+    eventDescription: `🎙 Join us for an insightful GPTuesday session on "The AI Landscape: From Core Concepts to Prompt Engineering" with Natalia Vavoula, Data Analyst at CMA CGM and former Advisory Consultant at PwC 🚀
+  
+  Our comprehensive exploration covers:
+   🧠 Core Concepts of Generative AI
+   🌐 Industry Impact and Real-World Implications
+   🔮 Trending Topics: Explainable AI, Scalability, Privacy, etc
+   🛠 Prompt Engineering Techniques
+  
+  👩‍💼 Natalia brings her diverse experience in data analysis, process automation, and tech consulting to bridge theory and practice, with a special focus on the art and science of prompt engineering.
+  
+  🎓 Perfect for AI novices and pros alike, this session offers valuable insights into the present and future of Generative AI.
+  
+  🤝 Expand your AI knowledge and network with fellow enthusiasts.
+  
+  🗓 WHEN: June 25th, 2024 - 6:30pm to 9:00pm EST
+  🌎 WHERE: THE HUB @ Office Logic - 1501 Biscayne Blvd Suite 501, Miami, FL 33132
+  
+  ⏰ Secure your spot now and help shape the future of Generative AI technology! 🚀🤖`
+  },
+  {
+    title: "GPTuesday's 1 Year Anniversary",
+    speaker: ["GPTuesday Community"],
+    speakerTitle: [""],
+    speakerTagline: ["Honoring Our Community & An Amazing Year Of AI"],
+    date: "June 11th",
+    formattedDate: "2024-06-11",
+    time: "6:30pm - 9:00pm", // Time was not specified in the details
+    location: "The Hub at Office Logic",
+    image: "/img/speakers/gptuesday-1-year-anniversary.png",
+    slug: "gptuesday-1-year-anniversary-awards",
+    luma: "https://lu.ma/gptuesday-anniversary", // Placeholder, as actual link wasn't provided
+    eventDescription: `🎊 Get ready for an unforgettable night as we celebrate GPTuesday's 1 Year Anniversary with our "Best of the Year" awards! 🎉🏆
+  
+  Join us for an exciting night where we honor our community and the amazing advancements of AI over the past year. We'll be honoring standout individuals and projects that have left an incredible mark on our community. 🎖🏅
+  
+  📅 Mark your calendars and get ready to raise a toast to the power of AI and the incredible GPTuesday community. Let's make this an anniversary celebration to remember! 🥂✨
+  
+  We want YOU to be part of the fun. What moments, presentations, speakers, or fun quirks left an impression on you? 🤔💭 Let us know in our community group or send the team a DM! 🤠💬
+  
+  Date: June 11th, 2024
+  Location: The Hub at Office Logic
+  
+  Announcing GPTuesday Awards! Honoring Our Community & An Amazing Year Of AI`
+  },
+  {
+    title: "Unleash Your AI Writing Assistant: Save Time and Boost Productivity!",
+    speaker: ["Itai Leibowitz"],
+    speakerTitle: ["Founder, Biscayne AI"],
+    speakerTagline: ["Founder, Biscayne AI (Formerly Google, Meta, and McKinsey & Company)"],
+    date: "June 4th, 2024", // Specific date not provided, using day of the week
+    formattedDate: "2024-06-04", // Unable to provide without specific date
+    time: "6:30pm - 9:00pm EST",
+    location: "The Hub at Office Logic",
+    image: "/img/speakers/unleash-your-ai-writing-assistant-itai-leibowitz.png",
+    slug: "unleash-your-ai-writing-assistant-itai-leibowitz",
+    luma: "", // Placeholder, as actual link wasn't provided
+    eventDescription: `🎙 Join us for an exciting GPTuesday with Itai Leibowitz and discover how to create your own personal AI writing assistant! ✍️ 
+  
+  Itai is the Founder of Biscayne AI with experience from leading companies such as Google, Meta, and McKinsey & Company.
+  
+  ⏰ Say goodbye to the time-consuming task of writing emails, social media posts, and weekly updates. This Tuesday, we'll show you how to harness the power of AI to streamline your writing process and boost your productivity 📈
+  
+  📝 In this live tutorial, Itai will demonstrate how he effortlessly writes detailed emails and posts by simply speaking to his AI assistant. You'll learn the step-by-step process to set up your own AI writing companion and start saving valuable time 🤖
+  
+  📅 Mark your calendar for Tuesday at 7:00 PM EST at The Hub at Office Logic! Don't miss this opportunity to improve your writing process and take your productivity to new heights 🚀`
+  }
   // {
   //   speaker: "Tad Duval",
   //   speakerTitle: "Software Engineer and Founder of Command Labs and Kalygo",
