@@ -13,7 +13,7 @@ export default function EventCard({ event }: { event: EventType }) {
   
   return (
     <a href={`/events/2024/${event.slug}`} target="_blank">
-      <Card className='relative bg-white bg-opacity-10 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105 border-rounded-xl border-purple-600 border-4 hover:border-green-300 m-0 p-0 m-auto w-11/12 md:w-[400px] lg:w-[500px]'>
+      <Card className='relative bg-white bg-opacity-10 rounded-lg overflow-hidden shadow-lg border-rounded-xl border-purple-600 border-4 hover:border-green-300 m-0 p-0 m-auto w-11/12 md:w-[400px] lg:w-[500px]'>
           <CardHeader className='p-0'>
           <img
             src={event.image}
