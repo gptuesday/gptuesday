@@ -2719,6 +2719,13 @@
   padding-bottom: 50px;
 }
 
+.dots {
+  background-image: url('/images/Dots.webp');
+  background-position: 50%;
+  background-size: auto;
+  background-attachment: scroll;
+}
+
 .section.dots {
   background-image: url('/images/Dots.webp');
   background-position: 50%;

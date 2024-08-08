@@ -8,6 +8,7 @@ import FoundingMembers from "@/components/founding-members";
 import HomeHeroSection from "@/components/home-hero-section";
 import Map from "@/components/map-section";
 import SubscribeNow from "@/components/subscribe-now";
+import Team from "@/components/team";
 
 import { Montserrat } from 'next/font/google'
 
@@ -21,7 +22,8 @@ export default function Home(){
       <DesktopNavigation isAbsolute={true}/>
       <HomeHeroSection/>
       <AboutTheEvent/>
-      <EventTicket/>
+      <Team/>
+      {/* <EventTicket/> */}
       {/* <CalendarSection/> */}
       <FoundingMembers/>
       <EventGallery/>
