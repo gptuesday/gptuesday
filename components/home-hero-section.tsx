@@ -11,7 +11,7 @@ export default function HomeHeroSection(){
           <h1 className="h1 font-bold">
             WELCOME TO <span className="blanka-span">GPTUESDAY</span>
           </h1>
-          <h2 className="h2 font-bold">AI-themed Weekly Meetup</h2>
+          <h2 className="h2 font-bold">AI Weekly Meetup</h2>
           {/* <h3 className="h3-white italics">Next Session in</h3>
           <div className="countdown-div">
             <div
