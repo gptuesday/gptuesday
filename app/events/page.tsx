@@ -8,13 +8,13 @@ export default function EventsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-900 to-indigo-900 text-white">
       <Head>
-        <title>GPTuesday - Upcoming Events</title>
+        <title>GPTuesday - Events</title>
         <meta name="description" content="Join us for exciting AI talks and workshops at GPTuesday events."/>
       </Head>
 
       <DesktopNavigation />
 
-      <main className="mx-auto md:px-4 py-5 md:py-10 lg:py-10 max-w-[1800px]">
+      <main className="mx-auto md:px-4 py-5 md:py-10 lg:py-10 w-full lg:max-w-[1800px]">
         <h1 className="text-5xl font-bold mb-12 text-center">Events</h1>
 
         <AllEvents />

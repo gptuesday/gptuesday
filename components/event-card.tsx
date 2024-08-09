@@ -1,7 +1,7 @@
 import { EventType } from '@/types/typesIndex';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from './ui/button';
-
+import Link from 'next/link';
 export default function EventCard({ event }: { event: EventType }) {
 
   let speakerSection = event.speaker.map((speaker, index) => (
@@ -12,8 +12,8 @@ export default function EventCard({ event }: { event: EventType }) {
   ));
   
   return (
-    <a href={`/events/2024/${event.slug}`} target="_blank">
-      <Card className='relative bg-white bg-opacity-10 rounded-lg overflow-hidden shadow-lg border-rounded-xl border-purple-600 border-4 hover:border-green-300 m-0 p-0 m-auto w-11/12 md:w-[400px] lg:w-[500px]'>
+    <Link href={`/events/2024/${event.slug}`} target="_blank">
+      <Card className='relative bg-white bg-opacity-10 rounded-lg shadow-lg border-rounded-xl border-purple-600 border-4 hover:border-green-300 m-0 p-0 m-auto w-11/12 lg:w-[500px]'>
           <CardHeader className='p-0'>
           <img
             src={event.image}
@@ -43,7 +43,7 @@ export default function EventCard({ event }: { event: EventType }) {
           </Button>
         </CardFooter>
       </Card>
-    </a>
+    </Link>
   );
 }
 
