@@ -1,6 +1,6 @@
 export default function AboutTheEvent(){
   return(
-    <section className="w-[1100px] m-auto my-10">
+    <section className="w-full lg:w-[1100px] m-auto my-10">
       <div className="flex flex-wrap p-5">
         <img src="/img/gptuesday-crewai-group.jpeg" alt="about-gptuesday-image" className="w-full max-w-[750px] m-auto rounded-lg mb-5"/>
         <div>
