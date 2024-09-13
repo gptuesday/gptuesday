@@ -30,7 +30,7 @@ return (
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
       <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Meet the team that helps to bring GPTuesday to Miami every week</p>
     </div>
-      <div className="flex flex-wrap justify-center gap-x-10 mb-6 lg:mb-16">
+      <div className="flex flex-wrap justify-center gap-x-10 gap-y-5 mb-6 lg:mb-16">
       {teamMembers.map((member, index) => (
         <TeamCard key={index} {...member} />
       ))}

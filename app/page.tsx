@@ -22,13 +22,13 @@ export default function Home(){
       <DesktopNavigation isAbsolute={true}/>
       <HomeHeroSection/>
       <AboutTheEvent/>
-      <Team/>
+      {/* <Team/> */}
       {/* <EventTicket/> */}
       {/* <CalendarSection/> */}
       <FoundingMembers/>
       <EventGallery/>
-      <EventSponsors/>
-      <Map/>
+      {/* <EventSponsors/> */}
+      {/* <Map/> */}
       <SubscribeNow/>
 
   <section
@@ -39,7 +39,7 @@ export default function Home(){
   >
     <div className="section-div">
       <h3 className="h3">
-        <span className="blanka-span letter-spacing-3px">GPTuesday</span>{" "}
+        <span className="blanka-span letter-spacing-3px">GPTuesdays</span>{" "}
         Sessions
       </h3>
       <div className="calendar-div">

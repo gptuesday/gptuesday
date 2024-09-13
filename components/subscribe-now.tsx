@@ -61,7 +61,7 @@ export default function SubscribeNow(){
           </div>
           <div className="social-media-logos-div">
             <a
-              href="https://www.instagram.com/gptuesday/"
+              href="https://www.instagram.com/gptuesdays/"
               target="_blank"
               className="purple-icon-div w-inline-block"
             >
@@ -74,7 +74,7 @@ export default function SubscribeNow(){
               />
             </a>
             <a
-              href="https://www.linkedin.com/company/gptuesday/"
+              href="https://www.linkedin.com/company/gptuesdays/"
               target="_blank"
               className="purple-icon-div w-inline-block"
             >
@@ -85,7 +85,7 @@ export default function SubscribeNow(){
                 className="social-media-icon"
               />
             </a>
-            <a href="#" className="purple-icon-div x w-inline-block">
+            <a href="https://x.com/gptuesdays" className="purple-icon-div x w-inline-block">
               <img
                 src="images/X.webp"
                 loading="lazy"

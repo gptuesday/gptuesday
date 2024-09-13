@@ -6,7 +6,7 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "GPTuesday",
+  title: "GPTuesdays",
   description: "AI weekly meetups in Miami. Join us to learn about the latest in AI and machine learning!",
   icons: {
     icon: "/images/favicon.png"

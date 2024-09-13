@@ -7,7 +7,7 @@ export default function SpeakerEvent() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-900 to-indigo-900 text-white">
       <Head>
-        <title>GPTUesday - João Moura: Using agents to build an agent company</title>
+        <title>GPTUesdays - João Moura: Using agents to build an agent company</title>
         <meta name="description" content="Join João Moura for an inspiring talk on using AI agents to grow businesses and innovate." />
       </Head>
 

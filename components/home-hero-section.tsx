@@ -9,7 +9,7 @@ export default function HomeHeroSection(){
       <div className="section-div">
         <div className="hero-div">
           <h1 className="h1 font-bold">
-            WELCOME TO <span className="blanka-span">GPTUESDAY</span>
+            WELCOME TO <span className="blanka-span">GPTUESDAYS</span>
           </h1>
           <h2 className="h2 font-bold">AI Weekly Meetup</h2>
           {/* <h3 className="h3-white italics">Next Session in</h3>
@@ -31,7 +31,7 @@ export default function HomeHeroSection(){
             <div className="clock-text">Seconds</div>
             <div className="countdown-item hidden">00</div>
           </div> */}
-          <a href="https://lu.ma/GPTuesday" className="gradient-button w-button" target="_blank">
+          <a href="https://lu.ma/GPTuesdays" className="gradient-button w-button" target="_blank">
             Register Now
           </a>
         </div>

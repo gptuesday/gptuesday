@@ -12,12 +12,12 @@ export default function FoundingMembers(){
         <br />
       </h3>
       <div className="main-text centered">
-        <span className="blanka-span">GPTuesday</span> wouldn't be{" "}
-        <span className="blanka-span">GPTuesday</span> without our Founding
+        <span className="blanka-span">GPTuesdays</span> wouldn't be{" "}
+        <span className="blanka-span">GPTuesdays</span> without our Founding
         Members. We extend our heartfelt gratitude to these visionary
         individuals who have been with us from Day 1, attending each session and
         contributing to the vibrant community that{" "}
-        <span className="blanka-span">GPTUESDAY</span> has become
+        <span className="blanka-span">GPTUESDAYS</span> has become
         <br />
       </div>
       <a href="#" className="gradient-button hidden w-button">
@@ -160,53 +160,6 @@ export default function FoundingMembers(){
               </a>
               <a
                 href="https://www.surge.ai/"
-                target="_blank"
-                className="purple-icon-div members w-inline-block"
-              >
-                <img
-                  src="images/Rocket.webp"
-                  loading="lazy"
-                  width={33}
-                  alt=""
-                  className="social-media-icon members rocket"
-                />
-              </a>
-            </div>
-          </div>
-          <div
-            id="w-node-b9d8bb68-96d9-2955-6b87-11e9bdf9c11a-c7901c15"
-            className="member-div"
-          >
-            <img
-              src="images/4.webp"
-              loading="lazy"
-              sizes="100vw"
-              srcSet="images/4-p-500.png 500w, images/4-p-800.png 800w, images/4.webp 1080w"
-              alt="A person standing upright with short hair, and appearing to be engaged in a neutral posture"
-              className="member-photo"
-            />
-            <div className="member-title">
-              <div className="member-name bold">Grant Kurz</div>
-              <div className="member-name">
-                GenAI Integration Consultant, Founder of Consultabit, Developer
-                of FluentFlash
-              </div>
-            </div>
-            <div className="member-links">
-              <a
-                href="https://www.linkedin.com/in/grant-kurz/"
-                target="_blank"
-                className="purple-icon-div members w-inline-block"
-              >
-                <img
-                  src="images/Linkedin.svg"
-                  loading="lazy"
-                  alt="LinkedIn Logo"
-                  className="social-media-icon members"
-                />
-              </a>
-              <a
-                href="https://fluentflash.com"
                 target="_blank"
                 className="purple-icon-div members w-inline-block"
               >

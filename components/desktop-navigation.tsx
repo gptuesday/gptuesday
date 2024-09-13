@@ -27,7 +27,7 @@ export default function DesktopNavigation({isAbsolute}: {isAbsolute?: boolean}) 
       isScrolled ? 'bg-purple-900' : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-4 py-4 flex justify-between items-center max-w-[1100px]">
-      <a href="/" ><div className="logo">GPTUESDAY</div></a>
+      <a href="/" ><div className="logo">GPTUESDAYS</div></a>
         <div className="flex items-center space-x-6 pr-1 font-semibold">
           <a href="/events/" className="text-white hover:text-purple-300 md:text-lg lg:text-xl transition-colors text-sm">Events</a>
           {/* <a href="/#gallery" className="text-white hover:text-purple-300 transition-colors">Gallery</a> */}
