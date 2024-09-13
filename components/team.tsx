@@ -1,27 +1,16 @@
 
 import Image from 'next/image';
 import { Card, CardContent } from "./ui/card";
-const teamMembers = [
-{
-name: "Grant Kurz",
-role: "Co-Founder",
-description: "Founder of Consultabit & CryptoScenarios (Acquired by CoinLedger.io)",
-imageSrc: "/img/speakers/grant-kurz-co-founder-gptuesday.webp",
-},
-{
-name: "Sardor",
-role: "Co-Founder",
-description: `Tech Entrepreneur. Founder of Synergy Labs`,
-imageSrc: "/img/speakers/sardor.png",
-},
-{
-name: "Mukaddas Boboyorova",
-role: "Co-Founder",
-description: "Innovation Event Planner, Operations Manager of Synergy Labs",
-imageSrc: "/img/speakers/mukaddas-gptuesday.png",
-},
 
+const teamMembers = [
+  {
+  name: "Grant Kurz",
+  role: "Founder",
+  description: "Founder of GPTuesdays & CryptoScenarios (Acquired by CoinLedger.io)",
+  imageSrc: "/img/speakers/grant-kurz-co-founder-gptuesday.webp",
+  },
 ];
+
 export default function Team() {
 return (
 <section className="bg-white dark:bg-gray-900 dots">

@@ -17,7 +17,7 @@ export default function EventsPage() {
       <main className="mx-auto md:px-4 py-5 md:py-10 lg:py-10 w-full lg:max-w-[1800px]">
         <h1 className="text-5xl font-bold mb-12 text-center">Events</h1>
 
-        {/* <AllEvents /> */}
+        <AllEvents />
       </main>
     </div>
   );
